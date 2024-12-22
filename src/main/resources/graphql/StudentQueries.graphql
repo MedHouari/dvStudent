@@ -1,0 +1,4 @@
+type Query {
+    getStudentByName(name: String) : [Student]
+    getStudentByNameAndEmail(name :String, email: String): [Student]
+}
